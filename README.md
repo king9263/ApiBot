@@ -12,8 +12,11 @@ TeleSeed!
 Tylor!
 
 Our team:
+ 
 [MasterErfan](https://telegram.me/MasterErfan)
+ 
 [Negative](https://telegram.me/negative_officiall)
+ 
 [Clever](https://telegram.me/Cleverm)
 
 
