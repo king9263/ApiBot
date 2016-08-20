@@ -1,7 +1,8 @@
 <h3>Master Bot</h3>
 The Best Iranian Telegram Cli bot
 With AutoLaunch For Free Servers
-
+[![https://telegram.me/MasterErfan](https://img.shields.io/badge/%F0%9F%92%AC_MasterErfan-WebMaster-orange.svg)](https://telegram.me/MasterErfan) 
+[![https://telegram.me/Masters_tm](https://img.shields.io/badge/💬_telegram-channel-blue.svg)](https://telegram.me/Masters_tm) 
 Powered By
 TeleSeed!
 Tylor!
