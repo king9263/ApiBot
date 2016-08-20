@@ -14,9 +14,7 @@ Tylor!
 Our team:
  
 [MasterErfan](https://telegram.me/MasterErfan)
- 
 [Negative](https://telegram.me/negative_officiall)
- 
 [Clever](https://telegram.me/Cleverm)
 
 
@@ -26,9 +24,9 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```
 ```sh
 git clone https://github.com/MasterErfan/MasterBot -b supergroups
-cd taylor-bot 
+cd MasterBot 
 ./launch.sh install 
-./launch.sh # add phone
+./launch.sh
 ```
 
 #Run Self mode
@@ -50,9 +48,8 @@ figlet
 ##Run Api Telegram bot 
 
 ```sh
-cd taylor-bot
+cd MasterBot
 chmod +x apilaunch.sh
-cd 
 rm -rf .telegram-cli
 ./apilaunch.sh # add token hash
 ```
