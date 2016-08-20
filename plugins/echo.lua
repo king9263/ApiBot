@@ -15,7 +15,7 @@ return {
   usage = {
   "بگو [whatever]: Echo Massage",
   "/echo [whatever]: Gofti k begam Echo Massage  😐   ",
-  "echo [whatever]: Echo Massage ",
+  "echo [whatever]: Gofti k begam Echo Massage  😐   ",
   },
   patterns = {
     "^بگو +(.+)$",
