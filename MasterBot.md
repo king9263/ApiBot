@@ -18,15 +18,14 @@ Our team:
 [Clever](https://telegram.me/Cleverm)
 
 
-
+<b2>Installing Guide</b2>
 ```sh
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
-```
-```sh
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket
+sudo apt-get install lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ 
+sudo apt-get install libjansson-dev libpython-dev expat libexpat1-dev
 git clone https://github.com/MasterErfan/MasterBot -b supergroups
-cd MasterBot 
-./launch.sh install 
-./launch.sh
 ```
 
 #Run Self mode
@@ -59,6 +58,8 @@ rm -rf .telegram-cli
 
 ```
 cd MasterBot
+chmod +x slflaunch.sh
+./selflaunch.sh install
 chmod +x autolaunch.sh
 ./autolaunch.sh
 ```
