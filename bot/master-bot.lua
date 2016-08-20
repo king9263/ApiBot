@@ -235,21 +235,21 @@ function create_config( )
     },
     sudo_users = {224661370},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Taylor Team v4
-    Taylor Team and Taylor Bot Anti spam / anti link
+    about_text = [[Master Team v4
+    Master Team and Master Bot Anti spam / anti link
     
     website : 
-    taylortg.ir  ❤️
+    DevGraph.ir  ❤️
     
     admin : 
     
-    @negative_officiall ❤️
+    @MasterErfan ❤️
     
     
     channel : 
     
     
-    @taylor_Team ❤️
+    @Masters_tm ❤️
 ]],
     help_text_realm = [[
 Realm Commands:
