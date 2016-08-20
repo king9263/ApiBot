@@ -1,27 +1,5 @@
-#!/bin/bash
-# =====================================================================================================
-# Copyright (C) steady.sh v1.2 2016 iicc (@iicc1)
-# =====================================================================================================
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-# this program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-# You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# =======================================================================================================
-# It depends on Tmux https://github.com/tmux/tmux which is BSD-licensed
-# and Screen https://www.gnu.org/software/screen GNU-licensed.
-# =======================================================================================================
-# This script is intended to control the state of a telegram-cli telegram bot running in background.
-# The idea is to get the bot fully operative all the time without any supervision by the user.
-# It should be able to recover the telegram bot in any case telegram-cli crashes, freezes or whatever.
-# This script works by tracing ctxt swithes value in kernel procces at a $RELOADTIME 
-# So it can detect any kind of kernel interruption with the procces and reload the bot.
 
-
-#Taylor Team
+#Masters Team
 
 
 # Some script variables
@@ -85,11 +63,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @taylor_team-----taylor_team\033[0;00m"
-echo -e "\033[38;5;208m @taylor_team-----taylor_team \033[0;00m"
-echo -e "\033[38;5;208m @taylor_team-----taylor_team \033[0;00m"
-echo -e "\033[38;5;208m @taylor_team-----taylor_team \033[0;00m"
-echo -e "\033[38;5;208m @taylor_team-----taylor_team \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm-----@Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm-----@Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm-----@Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm-----@Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm-----@Masters_tm \033[0;00m"
 
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -237,11 +215,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
 # Starting preliminar setup
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -507,11 +485,11 @@ while getopts ":tsTSih" opt; do
 	echo ""
 	echo -e "\e[0m"
 
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
+echo -e "\033[38;5;208m @Masters_tm    jooooooon joooon      @Masters_tm \033[0;00m"
 echo ""
 	exit 1
       ;;
