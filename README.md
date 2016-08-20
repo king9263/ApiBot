@@ -51,7 +51,7 @@ figlet
 cd MasterBot
 chmod +x apilaunch.sh
 rm -rf .telegram-cli
-./apilaunch.sh # add token hash
+./apilaunch.sh
 ```
 
 
