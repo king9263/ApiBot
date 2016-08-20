@@ -112,7 +112,7 @@ else
   fi
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/taylor-self.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/master-self.lua -l 1 -E $@
    sleep 3
   done
 fi
