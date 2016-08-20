@@ -1,29 +1,17 @@
-# <i>Taylor-Bot</i>
-رباتی با پشتیبانی از دو زبان فارسی و انگلیسی
+<h3>Master Bot</h3>
+The Best Iranian Telegram Cli bot
+With AutoLaunch For Free Servers
 
-اوپن شده و نوشته شده توسط 
+Powered By
+TeleSeed!
+Tylor!
 
-[negative](https://telegram.me/negative_officiall)
-
-قدرت گرفته از 
-
-TeleSeed !
-
-###به ما ستاره بدهید 
-
-**لیست **
-- [install](#install)
-- [anti crash](#run-by-anti-crash)
-- [Run self mode](#run-self-mode)
-- [install figlet plugin](#figlet)
+Our team:
+[MasterErfan](https://telegram.me/MasterErfan)
+[Negative](https://telegram.me/negative_officiall)
+[Clever](https://telegram.me/Cleverm)
 
 
-## تشکر از 
-[@MrJacki](https://telegram.me/MrJacki)
-
-[@UnFriendlly](https://telegram.me/UnFriendlly)
-
-#install 
 
 ```sh
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
@@ -34,11 +22,6 @@ cd taylor-bot
 ./launch.sh install 
 ./launch.sh # add phone
 ```
-#Run by anti crash
-
-<code>
-bash start.sh
-</code>
 
 #Run Self mode
 
@@ -54,24 +37,6 @@ $ sudo apt-get install figlet
 $ figlet
 ```
 
-#**updating v5**
-
-
-اپدیت 6 خرداد .
-
-**weather**
-
-**bin**
-
-**info**
-
-**infome**
-
-**voice**
-
-**translate.lua**
-
-**abjad**
 
 
 ##Run Api Telegram bot 
@@ -82,3 +47,15 @@ chmod +x apilaunch.sh
 cd 
 rm -rf .telegram-cli
 ./apilaunch.sh # add token hash
+```
+
+
+##Run AutoLaunch
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install lua5.2 liblua5.2-dev libpython-dev libjansson-dev libreadline-dev 
+cd MasterBot
+./autolaunch.sh
+```
