@@ -41,8 +41,8 @@ sudo chmod +x selflaunch.sh
 #Figlet
 
 ```sh
-$ sudo apt-get install figlet
-$ figlet
+sudo apt-get install figlet
+figlet
 ```
 
 
