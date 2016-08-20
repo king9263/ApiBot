@@ -1,4 +1,4 @@
-<h3>Master Bot</h3>
+<h2><b>Master Bot</b></h2>
 The Best Iranian Telegram Cli bot
 With AutoLaunch For Free Servers
 
@@ -18,7 +18,7 @@ Our team:
 [Clever](https://telegram.me/Cleverm)
 
 
-<b2>Installing Guide</b2>
+<h2>Installing Guide</h2>
 ```sh
 sudo apt-get update
 sudo apt-get upgrade
