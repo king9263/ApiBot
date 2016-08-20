@@ -30,7 +30,7 @@ sudo chmod +x selflaunch.sh
 ./selflaunch.sh
 ```
 
-#figlet
+#Figlet
 
 ```sh
 $ sudo apt-get install figlet
