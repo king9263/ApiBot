@@ -235,8 +235,8 @@ function create_config( )
     },
     sudo_users = {224661370},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Taylor Team v4
-    Taylor Team and Taylor Bot Anti spam / anti link
+    about_text = [[Masters Team v1
+    Masters Team and Master Bot Anti spam / anti link
     
     website : 
     DevGraph.ir  ❤️
