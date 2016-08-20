@@ -53,9 +53,7 @@ rm -rf .telegram-cli
 ##Run AutoLaunch
 
 ```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install lua5.2 liblua5.2-dev libpython-dev libjansson-dev libreadline-dev 
 cd MasterBot
+chmod +x autolaunch.sh
 ./autolaunch.sh
 ```
