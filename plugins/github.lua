@@ -20,32 +20,32 @@ local function run(msg, matches)
     local res = https.request(jdat.owner.url)
     local jres = JSON.decode(res)
     send_photo_from_url("channel#id"..msg.to.id, jdat.owner.avatar_url)
-    return "مشخصات اکانت:\n"
-      .."نام اکانت: "..(jres.name or "-----").."\n"
-      .."يوزرنيم: "..jdat.owner.login.."\n"
-      .."نام شرکت: "..(jres.company or "-----").."\n"
-      .."وبسايت: "..(jres.blog or "-----").."\n"
-      .."ايميل: "..(jres.email or "-----").."\n"
-      .."موقعيت مکاني: "..(jres.location or "-----").."\n"
-      .."تعداد پروژه: "..jres.public_repos.."\n"
-      .."تعداد دنبال کننده: "..jres.followers.."\n"
-      .."تعداد دنبال شده: "..jres.following.."\n"
-      .."تاريخ ساخت اکانت: "..jres.created_at.."\n"
-      .."بيوگرافي: "..(jres.bio or "-----").."\n\n"
-      .."مشخصات پروژه:\n"
-      .."نام پروژه: "..jdat.name.."\n"
-      .."صفحه گيتهاب: "..jdat.html_url.."\n"
-      .."پکيج سورس: "..jdat.clone_url.."\n"
-      .."وبلاگ پروژه: "..(jdat.homepage or "-----").."\n"
-      .."تاريخ ايجاد: "..jdat.created_at.."\n"
-      .."آخرين آپديت: "..(jdat.updated_at or "-----").."\n"
-      .."زبان برنامه نويسي: "..(jdat.language or "-----").."\n"
-      .."سايز اسکريپت: "..jdat.size.."\n"
-      .."ستاره ها: "..jdat.stargazers_count.."\n"
-      .."بازديدها: "..jdat.watchers_count.."\n"
-      .."انشعابات: "..jdat.forks_count.."\n"
-      .."مشترکين: "..jdat.subscribers_count.."\n"
-      .."درباره ي پروژه:\n"..(jdat.description or "-----").."\n"
+    return "Account Description:\n"
+      .."Account Name: "..(jres.name or "-----").."\n"
+      .."Username: "..jdat.owner.login.."\n"
+      .."Company Name: "..(jres.company or "-----").."\n"
+      .."Website: "..(jres.blog or "-----").."\n"
+      .."Email: "..(jres.email or "-----").."\n"
+      .."Locaion: "..(jres.location or "-----").."\n"
+      .."Projects Count: "..jres.public_repos.."\n"
+      .."Fallowers: "..jres.followers.."\n"
+      .."Fallowing: "..jres.following.."\n"
+      .."Created in "..jres.created_at.."\n"
+      .."Bio: "..(jres.bio or "-----").."\n\n"
+      .."Project Detail:\n"
+      .."Project Name: "..jdat.name.."\n"
+      .."Git Page: "..jdat.html_url.."\n"
+      .."Source Pak: "..jdat.clone_url.."\n"
+      .."Project Blog: "..(jdat.homepage or "-----").."\n"
+      .."Created at "..jdat.created_at.."\n"
+      .."Last Update in "..(jdat.updated_at or "-----").."\n"
+      .."ProgramLang: "..(jdat.language or "-----").."\n"
+      .."Script Size: "..jdat.size.."\n"
+      .."Stars: "..jdat.stargazers_count.."\n"
+      .."Wached: "..jdat.watchers_count.."\n"
+      .."Forks: "..jdat.forks_count.."\n"
+      .."Subscribers: "..jdat.subscribers_count.."\n"
+      .."About Project:\n"..(jdat.description or "-----").."\n"
   end
 end
 
@@ -54,8 +54,8 @@ return {
   usagehtm = '<tr><td align="center">github پروژه/اکانت</td><td align="right">آدرس گیتهاب را به صورت پروژه/اکانت وارد کنید<br>مثال: github shayansoft/umbrella</td></tr>'
   ..'<tr><td align="center">github> پروژه/اکانت</td><td align="right">با استفاده از این دستور، میتوانید سورس پروژه ی مورد نظر را دانلود کنید. آدرس پروژه را مثل دستور بالا وارد کنید</td></tr>',
   usage = {
-    "github (account/proje) : مشخصات پروژه و اکانت",
-    "github> (account/proje) : دانلود سورس",
+    "github (account/proje) : Project And Detail",
+    "github> (account/proje) : Download Source",
     },
   patterns = {
     "^([Gg]ithub>) (.*)",
