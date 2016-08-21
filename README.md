@@ -1,21 +1,20 @@
 <h2><b>Master Bot</b></h2>
 The Best Iranian Telegram Cli bot
+ 
 With AutoLaunch For Free Servers
 
  
 [![https://telegram.me/MasterErfan](https://img.shields.io/badge/%F0%9F%92%AC_MasterErfan-WebMaster-orange.svg)](https://telegram.me/MasterErfan) 
-[![https://telegram.me/Masters_tm](https://img.shields.io/badge/💬_Telegram-Channel-blue.svg)](https://telegram.me/Masters_tm) 
- 
- 
-Powered By
-TeleSeed!
-Tylor!
+[![https://telegram.me/Masters_tm](https://img.shields.io/badge/_Telegram-Channel-blue.svg)](https://telegram.me/Masters_tm) 
 
-Our team:
+ by [MasterErfan](https://telegram.me/MasterErfan) 
  
-[MasterErfan](https://telegram.me/MasterErfan)
-  
-[Clever](https://telegram.me/Cleverm)
+ 
+ <h3>Special Thanks To</h3>
+  Cleverm
+  RaminUB
+  Alfred Regular
+  Ubuntu14
 
 
 <h2>Installing Guide</h2>
