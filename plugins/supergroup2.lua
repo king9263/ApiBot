@@ -1736,8 +1736,6 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "📖 نام شما: " ..string.gsub(msg.from.print_name, "_", " ").. "\n📇 نام کاربری شما: @"..(msg.from.username or '----').."\n🆔 آیدی شما: "..msg.from.id.."\n\n🌐 نام سوپرگروه: " ..string.gsub(msg.to.print_name, "_", " ").. "\n🆔 آیدی سوپرگروه: "..msg.to.id
-			end
 		end
 
 		if matches[1] == 'kickme' then
