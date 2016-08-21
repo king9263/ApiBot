@@ -12,8 +12,11 @@ With AutoLaunch For Free Servers
  
  <h3>Special Thanks To</h3>
   Cleverm
+  
   RaminUB
+  
   Alfred Regular
+  
   Ubuntu14
 
 
