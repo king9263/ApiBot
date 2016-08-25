@@ -261,7 +261,7 @@ end
 	if matches[1] == 'reload' then
 		receiver = get_receiver(msg)
 		reload_plugins(true)
-		post_msg(receiver, "Reloaded!", ok_cb, false)
+		post_msg(receiver, "", ok_cb, false)
 		return "All Plugins And Detail Reloaded!"
 	end
 	--[[*For Debug*
