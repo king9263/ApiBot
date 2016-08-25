@@ -13,7 +13,6 @@ With AutoLaunch For Free Servers
  <h3>Special Thanks To</h3>
   Cleverm
   
-  RaminUB
   
   Alfred Regular
   
@@ -28,13 +27,6 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get install lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ 
 sudo apt-get install libjansson-dev libpython-dev expat libexpat1-dev
 git clone https://github.com/MastersTM/MasterBot -b supergroups
-```
-
-#Run Self mode
-
-```sh
-sudo chmod +x selflaunch.sh
-./selflaunch.sh
 ```
 
 #Figlet
