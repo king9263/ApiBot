@@ -220,7 +220,6 @@ function create_config( )
     "banhammer",
     "anti_spam",
     "owners",
-    "arabic_lock",
     "set",
     "pl",
     "get",
