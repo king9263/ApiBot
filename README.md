@@ -41,19 +41,19 @@ figlet
 ##Run Api Telegram bot 
 
 ```sh
-cd MasterBot
-chmod +x apilaunch.sh
+cd apbot
+chmod +x launch.sh
 rm -rf .telegram-cli
-./apilaunch.sh
+./launch.sh
 ```
 
 
 ##Run AutoLaunch
 
 ```
-cd MasterBot
+cd apibot
 chmod +x slflaunch.sh
-./selflaunch.sh install
+./launch.sh install
 chmod +x autolaunch.sh
 ./autolaunch.sh
 ```
