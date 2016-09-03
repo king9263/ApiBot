@@ -1,4 +1,4 @@
-<h2><b>Master Bot</b></h2>
+<h2><b>Api Bot</b></h2>
 The Best Iranian Telegram Cli bot
  
 With AutoLaunch For Free Servers
