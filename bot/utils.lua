@@ -1275,7 +1275,7 @@ end
 function send_api_msg(msg, receiver, text, disable_web_page_preview, markdown,inline_text,inline_url)
   
   
-  local api_key = 'توکن ربات'
+  local api_key = '237076182:AAEgPJBsfD9OFqHRT2zQyWByn9_RM-S0djw'
   
   
   local url_api = 'https://api.telegram.org/bot'..api_key
@@ -1298,7 +1298,7 @@ end
   end
 end
 function send_api_keyboard(msg, receiver, text, keyboard)
-  local api_key = 'توکن ربات'
+  local api_key = '237076182:AAEgPJBsfD9OFqHRT2zQyWByn9_RM-S0djw'
   local url_api = 'https://api.telegram.org/bot'..api_key..'/sendMessage?chat_id='.. receiver..'&parse_mode=markdown&&text='..URL.escape(text)..'&disable_web_page_preview=true&reply_markup='..json:encode(keyboard)
   local dat, res = https.request(url_api)
   if res == 400 then
