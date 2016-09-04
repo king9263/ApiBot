@@ -262,7 +262,7 @@ end
 		receiver = get_receiver(msg)
 		reload_plugins(true)
 		post_msg(receiver, "", ok_cb, false)
-		return "All Plugins And Detail Reloaded!"
+		return "Robot Data Successfully Reloaded"
 	end
 	--[[*For Debug*
 	if matches[1] == "vardumpmsg" and is_admin1(msg) then
