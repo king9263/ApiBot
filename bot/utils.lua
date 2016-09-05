@@ -956,7 +956,7 @@ function banall_by_reply(extra, success, result)
     return 'Use This in Your Groups'
   end
 end
-unction set_text(lang, keyword, text)
+function set_text(lang, keyword, text)
     local hash = 'lang:'..lang..':'..keyword
     redis:set(hash, text)
 end
